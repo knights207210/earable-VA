@@ -61,7 +61,7 @@ class EMGOVBox(OVBox):
 
 					command = "tell earablexuhan about to open the mouth"
 					elem = driver.find_element_by_class_name("askt-utterance__input")
-                	elem.send_keys(command)
+					elem.send_keys(command)
                 	elem.send_keys(Keys.ENTER)
 					
 
